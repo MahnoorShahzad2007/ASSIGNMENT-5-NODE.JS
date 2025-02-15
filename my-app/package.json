@@ -1,0 +1,61 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "import-data": "node \"D:/NODENEXT/HACKATHON 2/my-app/sanity/scripts/importSanityData.mjs\""
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
+    "@sanity/client": "^6.26.1",
+    "@stripe/stripe-js": "^5.5.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "lucide-react": "^0.468.0",
+    "mongoose": "^8.9.5",
+    "next": "^15.1.6",
+    "next-sanity": "^9.8.39",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "use-shopping-cart": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.4",
+    "nodemon": "^3.1.9",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.7.3"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahnoorShahzad2007/Hackhaton-2-Nextjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MahnoorShahzad2007/Hackhaton-2-Nextjs/issues"
+  },
+  "homepage": "https://github.com/MahnoorShahzad2007/Hackhaton-2-Nextjs#readme"
+}
